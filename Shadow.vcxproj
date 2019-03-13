@@ -45,7 +45,7 @@
   <PropertyGroup Label="Globals">
     <RootNamespace>DarkDEP</RootNamespace>
     <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VisualStudioVersion)' == '11.0'">$(VCTargetsPath11)</VCTargetsPath>
-    <ProjectName>HyperBone</ProjectName>
+    <ProjectName>Shadow</ProjectName>
     <WindowsTargetPlatformVersion>$(LatestTargetPlatformVersion)</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Label="PropertySheets">
@@ -304,7 +304,7 @@
     <ClCompile Include="src\Core\HVM.c" />
     <ClCompile Include="src\Hooks\PageHook.c" />
     <ClCompile Include="src\Hooks\SyscallHook.c" />
-    <ClCompile Include="src\HyperBone.c" />
+    <ClCompile Include="src\Shadow.c" />
     <ClCompile Include="src\Test\Tests.c" />
     <ClCompile Include="src\Util\LDasm.c" />
     <ClCompile Include="src\Util\Utils.c" />
